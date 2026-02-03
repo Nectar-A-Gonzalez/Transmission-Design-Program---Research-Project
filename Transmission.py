@@ -1,1 +1,1 @@
-import CatalogData.py, ForceAnalysis.py, Shaft.py, Bearings.py
+import Inputs.py, CatalogData.py, ForceAnalysis.py, Shaft.py, Bearings.py
