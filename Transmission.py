@@ -1,11 +1,15 @@
-import Inputs.py, CatalogData.py,
-import ForceAnalysis
-# Believe this class would inherit all the others or at least use them,
-# Maybe this is where the actual code ends up running
+# import specific input object instance
+# import specific CatalogData object instance
+# Or these will be input in the main.py that runs, and the classes only
+from Shaft.py import Shaft
+from Bearings.py import Bearings
+from Gears.py import Gears
 
-#Import Inputs.py object probably
+class Transmission(user_input,catalog_data):
+    #Shaft = Shaft
+    #Bearings = Bearings
+    #Gears = Gears
 
-class Transmission():
     def __init__(self):
         self.dfd
         self.dfd
@@ -48,5 +52,3 @@ class Transmission():
 # by atributes, it seems
 # https://www.w3schools.com/python/python_class_inner.asp
 # ------------
-
-#Is it better

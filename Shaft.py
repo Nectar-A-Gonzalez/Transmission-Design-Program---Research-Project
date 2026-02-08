@@ -2,8 +2,16 @@ class Shaft():
     def __init__(self):
         # Runs when object is created from class
         pass 
+    class ForceAnalysis(): 
+        pass
 
-#subclass Force analysis
+    class StressAnalysis():
+        pass
+
+    class DeflectAnalysis():
+        pass
+
+#subclass Force analysis (Are there 2 force analysis or just this one)
 #subclass stress analysis
 #subclass deflection analysis
 
