@@ -11,9 +11,12 @@ Source:
 
 - A2: Actually, maybe change of plans, will have to figure out if it can easily import classes as subclass of Transmission and not the other way around
 Would have to go class Gears(Transmission), class 
-and still I think you could not access the other classes FROM Transmission class object.
+and still I think you could not access the other classes FROM Transmission class object. 
 
-- Pondering....
+We actually would like to make them INNER classes, which is different from subclasses
+
+- Check InnerClasses1.png and InnerClasses2.png for possible solution.
+TLDR: Make the inner classes atributes, basically.
 
 
 
