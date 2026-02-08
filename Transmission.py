@@ -1,4 +1,5 @@
 import Inputs.py, CatalogData.py,
+import ForceAnalysis
 # Believe this class would inherit all the others or at least use them,
 # Maybe this is where the actual code ends up running
 
@@ -41,10 +42,6 @@ class Transmission():
         # ***
         # I think it makes the most sense to make the Shaft class a child of Force analysis, stress analysis, etc,
         # ***
-
-            #@abstractclass
-            class Gears():
-                pass
 
 # ------------
 # Multi Inner Class structure makes sense here, but has to be acessed
