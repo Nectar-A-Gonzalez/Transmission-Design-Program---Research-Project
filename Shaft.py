@@ -1,8 +1,11 @@
+from Gears.py import Gears
+
 class Shaft():
     def __init__(self):
         # Runs when object is created from class
         pass 
-    class ForceAnalysis(): 
+
+    class ForceAnalysis(self, gear_type):
         pass
 
     class StressAnalysis():
@@ -19,6 +22,6 @@ class Shaft():
 #Clases makes the most sense since easier to set atributes to values to access
 # but if we are going to use struct, does this even matter?
 
-# ***
-# I think it makes the most sense to make the Shaft class a child of Force analysis, stress analysis, etc,
-# ***
+#Lets add doc descriptions
+
+# should these be methods or attributes??
