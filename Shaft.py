@@ -1,4 +1,6 @@
 from Gears.py import Gears
+# Q: Would this import be necessary?
+# Q: Or would everything be in the Transmission class, basically
 
 class Shaft():
     def __init__(self):
@@ -14,6 +16,7 @@ class Shaft():
     class DeflectAnalysis():
         pass
 
+# NOTE - Subclasses and Inner classes are NOT the same thing, btw.
 #subclass Force analysis (Are there 2 force analysis or just this one)
 #subclass stress analysis
 #subclass deflection analysis
