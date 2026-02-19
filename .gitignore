@@ -1,2 +1,2 @@
-# Ignore local testing files
-testing/
+# Ignore local python env (at the end we will get requirements file from it)
+.venv/
