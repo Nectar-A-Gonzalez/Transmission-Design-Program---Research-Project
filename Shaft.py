@@ -1,20 +1,23 @@
-from Gears.py import Gears
-# Q: Would this import be necessary?
-# Q: Or would everything be in the Transmission class, basically
-
-class Shaft():
-    def __init__(self):
+class Shaft:
+    def __init__(self, gears:Gears):
+        self.gears = gears
         # Runs when object is created from class
         pass 
 
-    class ForceAnalysis(self, gear_type):
+    class ForceAnalysis:
+        def __init__(self, gear_type):
+            self.gear_type = gear_type
+        
         pass
 
-    class StressAnalysis():
+    class StressAnalysis:
         pass
 
-    class DeflectAnalysis():
+    class DeflectAnalysis:
         pass
+
+#How this would be called:
+# Shaft.
 
 # NOTE - Subclasses and Inner classes are NOT the same thing, btw.
 #subclass Force analysis (Are there 2 force analysis or just this one)
